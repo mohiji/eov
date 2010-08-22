@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276A47E411058A2E00997ECD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 276A47DB11058A2E00997ECD /* Credits.rtf */; };
+		276A47E511058A2E00997ECD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 276A47DD11058A2E00997ECD /* InfoPlist.strings */; };
+		276A47E611058A2E00997ECD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 276A47DF11058A2E00997ECD /* MainMenu.xib */; };
+		276A47E711058A2E00997ECD /* EOVDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 276A47E111058A2E00997ECD /* EOVDocument.xib */; };
+		276A47EF11058A8900997ECD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 276A47EC11058A8900997ECD /* main.m */; };
+		276A47F011058A8900997ECD /* EOVDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 276A47EE11058A8900997ECD /* EOVDocument.m */; };
+		276A481511058B3200997ECD /* EOVOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 276A481411058B3200997ECD /* EOVOpenGLView.m */; };
+		276A481C11058B7800997ECD /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276A481B11058B7800997ECD /* OpenGL.framework */; };
+		276A485311058E2300997ECD /* id_normals.c in Sources */ = {isa = PBXBuildFile; fileRef = 276A485211058E2300997ECD /* id_normals.c */; };
+		276A485811058E3900997ECD /* Md2Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 276A485711058E3900997ECD /* Md2Model.m */; };
+		276A487C1105934C00997ECD /* ByteOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 276A487B1105934C00997ECD /* ByteOrder.m */; };
+		27CB70F1110782D600794BE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CB70F0110782D600794BE7 /* AppDelegate.m */; };
+		27CB73021107CA8900794BE7 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CB73011107CA8900794BE7 /* SDL.framework */; };
+		27CB73061107CA9000794BE7 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CB73051107CA9000794BE7 /* SDL_image.framework */; };
+		27CB730B1107CA9B00794BE7 /* SDLTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CB730A1107CA9B00794BE7 /* SDLTexture.m */; };
+		27CB73211107CB9800794BE7 /* SDL.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 27CB73011107CA8900794BE7 /* SDL.framework */; };
+		27CB73491107CB9B00794BE7 /* SDL_image.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 27CB73051107CA9000794BE7 /* SDL_image.framework */; };
+		27CB73611107CFF100794BE7 /* Utility.c in Sources */ = {isa = PBXBuildFile; fileRef = 27CB73601107CFF100794BE7 /* Utility.c */; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27CB734E1107CBB900794BE7 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27CB73491107CB9B00794BE7 /* SDL_image.framework in Copy Frameworks */,
+				27CB73211107CB9800794BE7 /* SDL.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		276A47DC11058A2E00997ECD /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		276A47DE11058A2E00997ECD /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		276A47E011058A2E00997ECD /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		276A47E211058A2E00997ECD /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/EOVDocument.xib; sourceTree = "<group>"; };
+		276A47E311058A2E00997ECD /* EOV-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "EOV-Info.plist"; sourceTree = "<group>"; };
+		276A47EB11058A8900997ECD /* EOV_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOV_Prefix.pch; sourceTree = "<group>"; };
+		276A47EC11058A8900997ECD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		276A47ED11058A8900997ECD /* EOVDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOVDocument.h; sourceTree = "<group>"; };
+		276A47EE11058A8900997ECD /* EOVDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOVDocument.m; sourceTree = "<group>"; };
+		276A481311058B3200997ECD /* EOVOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOVOpenGLView.h; sourceTree = "<group>"; };
+		276A481411058B3200997ECD /* EOVOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOVOpenGLView.m; sourceTree = "<group>"; };
+		276A481B11058B7800997ECD /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		276A485111058E2300997ECD /* id_md2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = id_md2.h; sourceTree = "<group>"; };
+		276A485211058E2300997ECD /* id_normals.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = id_normals.c; sourceTree = "<group>"; };
+		276A485611058E3900997ECD /* Md2Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Md2Model.h; sourceTree = "<group>"; };
+		276A485711058E3900997ECD /* Md2Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Md2Model.m; sourceTree = "<group>"; };
+		276A487B1105934C00997ECD /* ByteOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByteOrder.m; sourceTree = "<group>"; };
+		276A487E1105937300997ECD /* ByteOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByteOrder.h; sourceTree = "<group>"; };
+		27CB70EF110782D600794BE7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27CB70F0110782D600794BE7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27CB73011107CA8900794BE7 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = Library/Frameworks/SDL.framework; sourceTree = SDKROOT; };
+		27CB73051107CA9000794BE7 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = Library/Frameworks/SDL_image.framework; sourceTree = SDKROOT; };
+		27CB73091107CA9B00794BE7 /* SDLTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLTexture.h; sourceTree = "<group>"; };
+		27CB730A1107CA9B00794BE7 /* SDLTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLTexture.m; sourceTree = "<group>"; };
+		27CB735F1107CFF100794BE7 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		27CB73601107CFF100794BE7 /* Utility.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Utility.c; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D15AC370486D014006FF6A4 /* EOV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EOV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				276A481C11058B7800997ECD /* OpenGL.framework in Frameworks */,
+				27CB73021107CA8900794BE7 /* SDL.framework in Frameworks */,
+				27CB73061107CA9000794BE7 /* SDL_image.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				276A481B11058B7800997ECD /* OpenGL.framework */,
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+				27CB73011107CA8900794BE7 /* SDL.framework */,
+				27CB73051107CA9000794BE7 /* SDL_image.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* EOV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		276A47DA11058A2E00997ECD /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				276A47DB11058A2E00997ECD /* Credits.rtf */,
+				276A47DD11058A2E00997ECD /* InfoPlist.strings */,
+				276A47DF11058A2E00997ECD /* MainMenu.xib */,
+				276A47E111058A2E00997ECD /* EOVDocument.xib */,
+				276A47E311058A2E00997ECD /* EOV-Info.plist */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		276A47EA11058A8900997ECD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				276A485111058E2300997ECD /* id_md2.h */,
+				276A485211058E2300997ECD /* id_normals.c */,
+				276A487E1105937300997ECD /* ByteOrder.h */,
+				276A487B1105934C00997ECD /* ByteOrder.m */,
+				276A47EB11058A8900997ECD /* EOV_Prefix.pch */,
+				276A47EC11058A8900997ECD /* main.m */,
+				276A47ED11058A8900997ECD /* EOVDocument.h */,
+				276A47EE11058A8900997ECD /* EOVDocument.m */,
+				276A481311058B3200997ECD /* EOVOpenGLView.h */,
+				276A481411058B3200997ECD /* EOVOpenGLView.m */,
+				276A485611058E3900997ECD /* Md2Model.h */,
+				276A485711058E3900997ECD /* Md2Model.m */,
+				27CB70EF110782D600794BE7 /* AppDelegate.h */,
+				27CB70F0110782D600794BE7 /* AppDelegate.m */,
+				27CB73091107CA9B00794BE7 /* SDLTexture.h */,
+				27CB730A1107CA9B00794BE7 /* SDLTexture.m */,
+				27CB735F1107CFF100794BE7 /* Utility.h */,
+				27CB73601107CFF100794BE7 /* Utility.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* EOV */ = {
+			isa = PBXGroup;
+			children = (
+				276A47EA11058A8900997ECD /* src */,
+				276A47DA11058A2E00997ECD /* resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = EOV;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* EOV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "EOV" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+				27CB734E1107CBB900794BE7 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EOV;
+			productInstallPath = "$(HOME)/Applications";
+			productName = EOV;
+			productReference = 8D15AC370486D014006FF6A4 /* EOV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "EOV" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* EOV */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* EOV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276A47E411058A2E00997ECD /* Credits.rtf in Resources */,
+				276A47E511058A2E00997ECD /* InfoPlist.strings in Resources */,
+				276A47E611058A2E00997ECD /* MainMenu.xib in Resources */,
+				276A47E711058A2E00997ECD /* EOVDocument.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276A47EF11058A8900997ECD /* main.m in Sources */,
+				276A47F011058A8900997ECD /* EOVDocument.m in Sources */,
+				276A481511058B3200997ECD /* EOVOpenGLView.m in Sources */,
+				276A485311058E2300997ECD /* id_normals.c in Sources */,
+				276A485811058E3900997ECD /* Md2Model.m in Sources */,
+				276A487C1105934C00997ECD /* ByteOrder.m in Sources */,
+				27CB70F1110782D600794BE7 /* AppDelegate.m in Sources */,
+				27CB730B1107CA9B00794BE7 /* SDLTexture.m in Sources */,
+				27CB73611107CFF100794BE7 /* Utility.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		276A47DB11058A2E00997ECD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276A47DC11058A2E00997ECD /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		276A47DD11058A2E00997ECD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276A47DE11058A2E00997ECD /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		276A47DF11058A2E00997ECD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276A47E011058A2E00997ECD /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		276A47E111058A2E00997ECD /* EOVDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276A47E211058A2E00997ECD /* English */,
+			);
+			name = EOVDocument.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = src/EOV_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/SDL_image.framework/Headers,
+					/Library/Frameworks/SDL.framework/Headers,
+				);
+				INFOPLIST_FILE = "resources/EOV-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = EOV;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = src/EOV_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/SDL_image.framework/Headers,
+					/Library/Frameworks/SDL.framework/Headers,
+				);
+				INFOPLIST_FILE = "resources/EOV-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = EOV;
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "EOV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "EOV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
