@@ -55,17 +55,18 @@
 	};
 	276A47ED11058A8900997ECD /* EOVDocument.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {803, 922}}";
-			sepNavSelRange = "{346, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {803, 652}}";
+			sepNavSelRange = "{698, 0}";
 			sepNavVisRange = "{0, 698}";
+			sepNavWindowFrame = "{{15, 393}, {850, 780}}";
 		};
 	};
 	276A47EE11058A8900997ECD /* EOVDocument.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1678, 1963}}";
-			sepNavSelRange = "{2308, 0}";
-			sepNavVisRange = "{2095, 1179}";
-			sepNavWindowFrame = "{{906, 400}, {850, 778}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1678, 2223}}";
+			sepNavSelRange = "{3306, 0}";
+			sepNavVisRange = "{2062, 1334}";
+			sepNavWindowFrame = "{{124, 232}, {850, 778}}";
 		};
 	};
 	276A481311058B3200997ECD /* EOVOpenGLView.h */ = {
@@ -101,7 +102,7 @@
 			sepNavIntBoundsRect = "{{0, 0}, {791, 975}}";
 			sepNavSelRange = "{1375, 0}";
 			sepNavVisRange = "{374, 1080}";
-			sepNavWindowFrame = "{{1001, 349}, {850, 778}}";
+			sepNavWindowFrame = "{{129, 340}, {850, 778}}";
 		};
 	};
 	276A485711058E3900997ECD /* Md2Model.m */ = {
@@ -250,8 +251,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 304143134;
-			PBXWorkspaceStateSaveDate = 304143134;
+			PBXPerProjectTemplateStateSaveDate = 304146894;
+			PBXWorkspaceStateSaveDate = 304146894;
 		};
 		sourceControlManager = 276A47D811058A0000997ECD /* Source Control */;
 		userBuildSettings = {
