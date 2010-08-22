@@ -83,6 +83,8 @@
 	
 	// Try and load the model's textures
 	[myTextures removeAllObjects];
+	
+	// Try and load BMP textures first.
 	for (i = 0;i < 4; i++)
 	{
 		textureName = [NSString stringWithFormat: @"tris%d.bmp", i];
@@ -97,6 +99,23 @@
 			[texture release];
 		}
 	}
+	
+	// Followed by PNG textures.
+	for (i = 0;i < 4; i++)
+	{
+		textureName = [NSString stringWithFormat: @"tris%d.png", i];
+		textureFile = [files objectForKey:textureName];
+		
+		if (textureFile != nil && [textureFile isRegularFile])
+		{
+			SDLTexture *texture;
+			textureData = [textureFile regularFileContents];
+			texture = [[SDLTexture alloc] initWithData:textureData];
+			[myTextures addObject: texture];
+			[texture release];
+		}
+	}
+	
 	[self updateView];
 	
 	if (myModel == nil) return NO;
